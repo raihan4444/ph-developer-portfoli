@@ -55,6 +55,16 @@ body{
         box-shadow: 10px 10px 40px gray;
         
     }
-    .web-dev-experience{
-          border-image: linear-gradient();
+    #web-dev-experience{
+        border-left: 7px solid;
+          border-image: linear-gradient(blue ,cyan);
+          border-image-slice: 1;
+    }
+    #full-stack-exprience{
+        border-left: 7px solid;
+        border-image: linear-gradient(rgb(241, 245, 18) ,rgb(209, 52, 52));
+        border-image-slice: 1;
+    }
+    footer p{
+        text-align: center;
     }
